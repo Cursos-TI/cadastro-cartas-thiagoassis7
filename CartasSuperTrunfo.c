@@ -25,51 +25,51 @@ char estado2;
 
   // Área para entrada de dados
 
-  printf("cadastro da carta 1\n");
+  printf("cadastro da carta 1:\n\n");
 
   printf("Digite o Estado: ");
   scanf(" %c" ,&estado1 );
 
-  printf("Digite o Codigo Da Carta (Ex: A01) ");
-  sacanf("%s", codigo1);
+  printf("Digite o Codigo Da Carta (Ex: A01): ");
+  scanf("%s", codigo1);
 
-  printf("Digite o Nome Da Cidade");
-  scanf(" %s", nomeCidade1 );
+  printf("Digite o Nome Da Cidade: ");
+  scanf(" %s[^\n]", nomeCidade1 );
 
-  printf("Digite a População");
+  printf("Digite a População: ");
   scanf(" %S", &populacao1);
 
-  printf("Digite a Area");
+  printf("Digite a Area:  ");
   scanf(" %f" , &area1);
 
-  printf("Digite o Pib (em bilhoes):");
+  printf("Digite o Pib (em bilhoes): ");
   scanf(" %f",&pib1);
 
   printf("Digite o Numero de pontos Turisticos: ");
-  scanf("%f" , pontosTuristicos1);
+  scanf("%d" , &pontosTuristicos1);
 
-   printf("cadastro da carta 2\n");
+   printf("cadastro da carta 2\n\n");
 
   printf("Digite o Estado: ");
   scanf(" %c" ,&estado2 );
 
-  printf("Digite o Codigo Da Carta (Ex: A01) ");
-  sacanf("%s", codigo2);
+  printf("Digite o Codigo Da Carta (Ex: A01): ");
+  scanf("%s", codigo2);
 
-  printf("Digite o Nome Da Cidade");
-  scanf(" %s", nomeCidade2 );
+  printf("Digite o Nome Da Cidade: ");
+  scanf(" %s[^\n]", nomeCidade2 );
 
-  printf("Digite a População");
+  printf("Digite a População: ");
   scanf(" %S", &populacao2);
 
-  printf("Digite a Area");
+  printf("Digite a Area: ");
   scanf(" %f" , &area2);
 
-  printf("Digite o Pib (em bilhoes):");
-  scanf(" %f",&pib2)
+  printf("Digite o Pib (em bilhoes): ");
+  scanf(" %f",&pib2);
 
   printf("Digite o Numero de pontos Turisticos: ");
-  scanf("%f" , pontosTuristicos2);
+  scanf(" %d" , &pontosTuristicos2);
   // Área para exibição dos dados da cidade
 
    printf("\n=============================\n");
